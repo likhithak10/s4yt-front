@@ -13,12 +13,14 @@
 
   </head>
 <body>
-  <div class="container">
-    <div class="d-flex mt-3">
-  <!-- HEADER -->
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid col-12">
+      <!-- HEADER -->
       <header class="col-10 row">
         <div class="col-4 logo hidden">
-          <img src="./assets/logo.png" alt="Logo S4YT">
+          <img s
+          rc="./assets/logo.png" alt="Logo S4YT">
         </div>
         <div class="">
           <div class="d-flex justify-content-start align-items-center col-4 logo">
@@ -34,35 +36,34 @@
             <h1 class="title">MORE DOBLONS</h1>
         </div>
       </header>
-  <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light col-2">
-        <div class="container-fluid">      
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  <img src="assets/btn_mainmap_normal.png" alt="main map">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="assets/btn_busi_normal.png" alt="business map">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="assets/btn_logout_normal.png" alt="logout">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">          
+          <!-- MAIN MAP-->
+          <li class="nav-item">
+            <a class="nav-link d-flex justify-content-center" aria-current="page" href="#">
+              <img src="./assets/btn_mainmap_normal.png" alt="Main Map" class="col-2">
+            </a>
+          </li>
+          <!-- BUSINESS MAP-->
+          <li class="nav-item">
+            <a class="nav-link d-flex justify-content-center" href="#">
+              <img src="./assets/btn_busi_normal.png" alt="Business Map" class="col-2">
+            </a>
+          </li>
+          <!-- LOG OUT -->
+          <li class="nav-item">
+            <a class="nav-link d-flex justify-content-center" href="file:///C:/BuildingU/s4yt-front/mockups/login.html">
+              <img src="./assets/btn_logout_normal.png" alt="Log Out" class="col-2">
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </nav>
+
   <!-- MAIN SECTION -->
   <section>
    <div>
@@ -94,7 +95,7 @@
       <ul>
         <li>
             <button> 
-                <img src="assets/businesses/btn_chat_normal.png" alt="shat text bubble">
+                <img src="assets/businesses/btn_chat_normal.png" alt="chat text bubble">
             </button>
         </li>
         <li>
